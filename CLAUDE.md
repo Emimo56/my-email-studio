@@ -1,3 +1,5 @@
+@brand/voice.md
+
 # Email Studio
 
 This studio is for planning and writing email campaigns for a small business.
