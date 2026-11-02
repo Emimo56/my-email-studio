@@ -11,7 +11,7 @@ A bit more, depending on what brought you here:
 
 **If you're new to tea:** there's no wrong way to start. Each box comes with simple, plain-language steps for brewing, so you're not guessing with water temperature or steep time.
 
-**If you're thinking of this as a gift:** the box is packaged the same thoughtful way whether it's for you or someone else — small batch, loose leaf, a little note on what's inside. Nothing generic about it.
+**If you're thinking of this as a gift:** the box is packaged the same thoughtful way whether it's for you or someone else — small batch, loose leaf, a little note on what's inside.
 
 **If you already drink tea regularly:** we can tell you more about sourcing on request — where the leaf comes from, how it's picked, how freshness is kept through shipping.
 
@@ -19,8 +19,7 @@ If you haven't started your subscription yet, this is a good moment to take a lo
 
 [See what's inside](https://kettlebird.example/steep-club)
 
-Steep on,
-The Kettlebird Team
+Steep on, —The Kettlebird Team
 
 You're getting this because you joined the Kettlebird Tea waitlist.
 Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
