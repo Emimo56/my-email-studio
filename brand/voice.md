@@ -35,4 +35,4 @@ Warm and personalized, from the team — not one person's name.
 
 Example: "Warmly, The Kettlebird Team"
 
-Other options in the same spirit: "Steep on, —The Kettlebird Team" / "With care, The Kettlebird Team"
+Other options in the same spirit: "Steep on, The Kettlebird Team" / "With care, The Kettlebird Team"

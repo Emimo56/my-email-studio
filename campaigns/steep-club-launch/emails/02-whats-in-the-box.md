@@ -19,7 +19,8 @@ If you haven't started your subscription yet, this is a good moment to take a lo
 
 [See what's inside](https://kettlebird.example/steep-club)
 
-Steep on, —The Kettlebird Team
+Steep on,
+The Kettlebird Team
 
 You're getting this because you joined the Kettlebird Tea waitlist.
 Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
