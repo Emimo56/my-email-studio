@@ -7,7 +7,7 @@ Thank you for joining the waitlist for The Steep Club. You asked to be the first
 
 The Steep Club is a monthly tea subscription box. Each month we send a small-batch, loose-leaf tea we've chosen carefully, along with simple notes on where it's from and how to brew it. No subscriptions you forget about, no mystery ingredients — just honest tea, delivered on a schedule you can count on.
 
-You're getting this before anyone else. As a waitlist member, you can start your subscription today, ahead of the general opening.
+As a waitlist member, you can start your subscription today, ahead of the general opening.
 
 Here's what to expect in your first box: a loose-leaf tea selected for this first run, simple brewing notes, and everything packaged with care. We'll walk you through the rest once you're signed up — delivery timing, how to pause, how to cancel — no pressure, no fine print surprises.
 
