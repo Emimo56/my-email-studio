@@ -1,11 +1,11 @@
-Subject: Last call for this launch window
-Preview: The first batch is small — here's where things stand.
+Subject: Where things stand with The Steep Club
+Preview: An honest update on where The Steep Club stands.
 
 Hi {{first_name}},
 
 This is the last email in our launch series, so we wanted to be straightforward with you.
 
-The first batch of The Steep Club was made in a small amount, on purpose — it's a small-batch tea, and once it's gone for this run, it's gone until the next one. If you've been meaning to start, now is the moment before this launch window closes.
+The first batch of The Steep Club was made in a small amount, on purpose — it's a small-batch tea, so this run won't be available indefinitely. If you've been meaning to start, this is a good moment to take a look.
 
 No countdown, no pressure — just letting you know where things actually stand, since you asked to hear from us.
 
