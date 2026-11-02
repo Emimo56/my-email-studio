@@ -77,11 +77,11 @@ If segmentation data isn't available in the email tool, send one sequence to eve
 |---|---|---|---|---|---|
 | 1 | Mon | Email 1 — "The Steep Club is open" (launch announcement) | Email | Goes to full waitlist | Not started |
 | 1 | Thu | Email 2 — "What's actually in the box" | Email | Segment-aware: beginners get "how to start," gift buyers get "how gifting works," daily drinkers get sourcing detail | Not started |
-| 2 | Tue | Email 3 — short reminder + FAQ | Email | Answers common questions (delivery, pausing, cancelling) | Not started |
+| 2 | Tue | Email 3 — short reminder + FAQ | Email | Audience: waitlist members who haven't subscribed yet. Answers common questions (delivery, pausing, cancelling) | Not started |
 | 2 | — | Check open/click rates from Emails 1–2; adjust Email 4 if one segment is lagging | Internal | Review step, not a send | Not started |
-| 3 | Mon | Email 4 — "Why people are joining" (quiet social proof, no hard claims) | Email | Needs sign-off: any customer quotes must be real and approved | Not started |
-| 3 | Thu | Email 5 — gentle urgency ("first batch" framing, honest and specific) | Email | Must stay within brand voice — no "limited time," no countdown pressure | Not started |
-| 4 | Tue | Email 6 — last call for this launch window | Email | Final nudge before month closes | Not started |
+| 3 | Mon | Email 4 — "Why people are joining" (quiet social proof, no hard claims) | Email | Audience: waitlist members who haven't subscribed yet. Needs sign-off: any customer quotes must be real and approved | Not started |
+| 3 | Thu | Email 5 — gentle urgency ("first batch" framing, honest and specific) | Email | Audience: waitlist members who haven't subscribed yet. Must stay within brand voice — no "limited time," no countdown pressure | Not started |
+| 4 | Tue | Email 6 — last call for this launch window | Email | Audience: waitlist members who haven't subscribed yet. Final nudge before month closes | Not started |
 | 4 | Fri | Campaign wrap: pull results, note what worked by segment | Internal | Feeds the performance review | Not started |
 
 Dependency: Email 1 can't go out until the subscription sign-up flow (wherever that lives) is tested end-to-end.
