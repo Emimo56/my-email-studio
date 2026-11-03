@@ -1,3 +1,32 @@
 {
-  "findings": []
+  "findings": [
+    {
+      "file": "campaigns/steep-club-launch/emails/04-where-things-stand.md",
+      "line": 8,
+      "severity": "medium",
+      "problem": "\"The first batch of The Steep Club was made in a small amount, on purpose\" functions as a soft scarcity/urgency nudge. It avoids the literally banned words (limited time, hurry, last chance) but uses the same pressure mechanism that brand/voice.md's hype/pressure ban and the campaign's own plan.md (which explicitly calls this the 'gentle urgency'/'first batch' email and warns against anything reading as fake scarcity) are meant to prevent.",
+      "fix": "Rewrite to state the small-batch fact neutrally without implying the reader should act before it runs out, e.g. describe it purely as a production/quality choice ('small-batch, the way we always do it') with no framing that nudges urgency."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/daily-drinkers/emails/04-where-things-stand.md",
+      "line": 8,
+      "severity": "medium",
+      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the daily-drinkers variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
+      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/04-where-things-stand.md",
+      "line": 8,
+      "severity": "medium",
+      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the gift-buyers variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
+      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/tea-curious/emails/04-where-things-stand.md",
+      "line": 8,
+      "severity": "medium",
+      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the tea-curious variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
+      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+    }
+  ]
 }

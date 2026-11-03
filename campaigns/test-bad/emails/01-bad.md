@@ -1,17 +1,16 @@
 Subject: Last chance to detox and feel amazing
+Preview: Don't miss out, hurry before it's gone!
 
-Preview: Don't miss out on our detox tea before it's gone for good
+Hi {{first_name}},
 
-Hey {{first_name}},
+This is your last chance to join before the flash sale ends. Our tea is scientifically proven to detox your body and boost your metabolism better than any other brand on the market.
 
-This is your last chance to grab our detox tea and flush out toxins fast. Act now before the flash sale ends!
+[Grab your box now](https://kettlebird.example/steep-club)
 
-[Shop now](https://kettlebird.example/steep-club)
+Act now and check out our bestsellers here: [Shop all teas](https://kettlebird.example/shop)
 
-Or check out our full catalog here: [See everything](https://kettlebird.example/catalog)
-
-Hurry,
-Kettlebird
+Warmly,
+The Kettlebird Team
 
 You're getting this because you joined the Kettlebird Tea waitlist.
 Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
