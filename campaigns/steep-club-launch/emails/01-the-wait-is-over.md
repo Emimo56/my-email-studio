@@ -1,4 +1,4 @@
-Subject: The Steep Club is open
+Subject: A quiet cup, waiting for you
 Preview: You asked to hear from us first. Here it is.
 
 Hi {{first_name}},

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "file": {
+            "type": "string",
+            "description": "Path to the file containing the problem"
+          },
+          "line": {
+            "type": "number",
+            "description": "Line number where the problem occurs"
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["high", "medium", "low"]
+          },
+          "problem": {
+            "type": "string",
+            "description": "What is wrong"
+          },
+          "fix": {
+            "type": "string",
+            "description": "How to fix it"
+          }
+        },
+        "required": ["file", "line", "severity", "problem", "fix"]
+      }
+    }
+  },
+  "required": ["findings"]
+}
