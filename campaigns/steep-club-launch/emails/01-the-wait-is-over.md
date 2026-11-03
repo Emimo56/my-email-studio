@@ -1,7 +1,7 @@
 Subject: A quiet cup, waiting for you
 Preview: You asked to hear from us first. Here it is.
 
-Hi {{first_name}},
+Hi {{first_name-testing}},
 
 Thank you for joining the waitlist for The Steep Club. You asked to be the first to know when we opened — so here we are.
 
