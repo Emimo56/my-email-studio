@@ -1,32 +1,33 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/steep-club-launch/emails/04-where-things-stand.md",
-      "line": 8,
-      "severity": "medium",
-      "problem": "\"The first batch of The Steep Club was made in a small amount, on purpose\" functions as a soft scarcity/urgency nudge. It avoids the literally banned words (limited time, hurry, last chance) but uses the same pressure mechanism that brand/voice.md's hype/pressure ban and the campaign's own plan.md (which explicitly calls this the 'gentle urgency'/'first batch' email and warns against anything reading as fake scarcity) are meant to prevent.",
-      "fix": "Rewrite to state the small-batch fact neutrally without implying the reader should act before it runs out, e.g. describe it purely as a production/quality choice ('small-batch, the way we always do it') with no framing that nudges urgency."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 1,
+      "severity": "high",
+      "problem": "Subject line still uses the banned hype phrase \"Last chance\" (brand/voice.md Words we avoid), and now also makes an implied health/performance claim (\"detox and feel amazing\"), which brand/voice.md's 'Claims we must never make' section forbids. This claim language is new to the subject line.",
+      "fix": "Rewrite the subject without pressure or benefit language, e.g. \"Your Steep Club box is ready.\""
     },
     {
-      "file": "campaigns/steep-club-launch/groups/daily-drinkers/emails/04-where-things-stand.md",
-      "line": 8,
-      "severity": "medium",
-      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the daily-drinkers variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
-      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 2,
+      "severity": "high",
+      "problem": "Preview line still uses the banned hype words \"Don't miss out\" and \"hurry\", not fixed from the prior review.",
+      "fix": "Rewrite the preview in plain, warm language without urgency, e.g. \"A quick update on your Steep Club box.\""
     },
     {
-      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/04-where-things-stand.md",
-      "line": 8,
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 6,
       "severity": "medium",
-      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the gift-buyers variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
-      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+      "problem": "Body still repeats the banned words \"last chance\" and \"flash sale\" (\"This is your last chance to join before the flash sale ends\"), not fixed from the prior review. Note: the health/metabolism claim and competitor comparison from the prior review have been removed and are fixed.",
+      "fix": "Remove the urgency/sale framing; describe the tea plainly without a deadline."
     },
     {
-      "file": "campaigns/steep-club-launch/groups/tea-curious/emails/04-where-things-stand.md",
-      "line": 8,
-      "severity": "medium",
-      "problem": "Same scarcity-flavored phrasing as the base email 04 ('made in a small amount, on purpose'), carried into the tea-curious variant, against brand/voice.md's no-pressure rule and plan.md's explicit warning for this email.",
-      "fix": "Rewrite to remove the implied urgency, keeping only the neutral small-batch/quality framing."
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 10,
+      "severity": "high",
+      "problem": "Line still contains the banned word \"Act now\" and a second markdown link ([Shop all teas](https://kettlebird.example/shop)), violating .claude/rules/emails.md's requirement of exactly one link pointing only to https://kettlebird.example/steep-club. Not fixed from the prior review.",
+      "fix": "Delete this entire line so only the single required steep-club link remains in the email."
     }
   ]
 }

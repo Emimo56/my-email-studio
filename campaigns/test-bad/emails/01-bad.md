@@ -3,7 +3,7 @@ Preview: Don't miss out, hurry before it's gone!
 
 Hi {{first_name}},
 
-This is your last chance to join before the flash sale ends. Our tea is scientifically proven to detox your body and boost your metabolism better than any other brand on the market.
+This is your last chance to join before the flash sale ends. Our tea is loose leaf, small batch, and sourced from growers we know by name.
 
 [Grab your box now](https://kettlebird.example/steep-club)
 

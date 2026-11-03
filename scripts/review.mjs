@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -17,9 +17,31 @@ const schemaPath = join(repoRoot, "review", "findings.schema.json");
 // Minified to a single line: avoids shell-quoting issues with embedded newlines on Windows.
 const schemaText = JSON.stringify(JSON.parse(readFileSync(schemaPath, "utf8")));
 
-const prompt =
+const outPath = join(repoRoot, "review", "findings.json");
+
+// If we already reviewed this exact folder before, feed those findings back in
+// so claude only reports what's new or still unfixed, instead of repeating itself.
+let previousFindings = null;
+if (existsSync(outPath)) {
+  try {
+    const previous = JSON.parse(readFileSync(outPath, "utf8"));
+    if (previous.folder === folder && Array.isArray(previous.findings)) {
+      previousFindings = previous.findings;
+    }
+  } catch {
+    // Not valid JSON from a prior run; ignore and review fresh.
+  }
+}
+
+let prompt =
   `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. ` +
   `Report only real problems.`;
+
+if (previousFindings) {
+  prompt +=
+    ` These are findings from the last review: ${JSON.stringify(previousFindings)}. ` +
+    `Report only problems that are new or still not fixed. Don't repeat ones that have been fixed.`;
+}
 
 // On Windows, `claude` resolves to a .cmd shim; invoking it needs shell:true,
 // which skips arg-escaping and corrupts the JSON schema argument. The shim's
@@ -83,9 +105,9 @@ if (!structuredOutput || !Array.isArray(structuredOutput.findings)) {
   process.exit(1);
 }
 
-const outPath = join(repoRoot, "review", "findings.json");
+const toSave = { folder, findings: structuredOutput.findings };
 mkdirSync(dirname(outPath), { recursive: true });
-writeFileSync(outPath, JSON.stringify(structuredOutput, null, 2) + "\n");
+writeFileSync(outPath, JSON.stringify(toSave, null, 2) + "\n");
 
 const { findings } = structuredOutput;
 const highCount = findings.filter((f) => f.severity === "high").length;
